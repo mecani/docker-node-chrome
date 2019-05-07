@@ -1,4 +1,4 @@
-FROM node:10.15.3-alpine
+FROM node:12.1.0-alpine
 
 # Install Chrome
 RUN echo @edge http://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \

@@ -1,4 +1,4 @@
-FROM node:8.12-alpine
+FROM node:8.9.2-alpine
 
 # Install Chrome
 RUN echo @edge http://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \
